@@ -30,7 +30,7 @@ Latest commit cd3cc5b 2 hours ago
 
 h1{
     text-align: center;
-    position: relative;
+    position: absolute;
     color: rgb(152, 125, 92);
 }
 
