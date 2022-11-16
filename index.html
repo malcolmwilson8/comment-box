@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <h1>Leave a comment below!</h1>
+    <div class="container">
+    <form>
+        <div class="input_container">
+            <div class = "input_information">
+                <div>
+                    <label>Enter your name:</label>
+                    <input type="text" id="name_input" class="my_input" >
+                </div>
+                <div>
+                    <label>Enter your email address:</label>
+                    <input required type="email" id="email_input" class="my_input" placeholder="john@example.com">
+                </div>
+                <div>
+                    <label>Enter your comment</label>
+                    <textarea id="comment_input" class="my_input" rows="5" cols="70" form="usrform" placeholder="Enter your comment"></textarea>
+                </div>
+                <div class="counter_warning">
+                    <p id="warning"></p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    </div>
+    <div class="counter">
+        <p id="final_count"></p>
+    </div>
+    <div class="bttn">
+        <button id="submit_button" onclick="submitComment(event);">Submit</button>
+    </div>
+    <h4>Comments</h4>
+        <div id ="name_field" class="my_names">
+            <p id="name_output" class="names"></p>
+        </div>
+        <div id="comment_field" class="my_comments">
+            <p id="comment_output" class="comments"></p>
+        </div>
+        <div id="comments"></div>
+    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</body>
+
+</html>
