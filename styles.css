@@ -1,0 +1,125 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@malcolmwilson8 
+malcolmwilson8
+/
+comment-box
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+comment-box/styles.css
+@malcolmwilson8
+malcolmwilson8 Added styles file to branch "styles"
+Latest commit cd3cc5b 2 hours ago
+ History
+ 1 contributor
+80 lines (68 sloc)  1.15 KB
+
+h1{
+    text-align: center;
+    position: relative;
+    color: rgb(152, 125, 92);
+}
+
+h4{
+    text-align: left;
+    color: rgb(152, 125, 92);
+    margin-left: 40px;
+}
+
+html{
+    background-color: rgb(255, 212, 160);
+}
+.container {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 5%;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.5);
+}
+
+.my_input {
+    margin: 5px;
+}
+
+textarea {
+    resize: none;
+    overflow-y: scroll;
+}
+
+.bttn{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.counter{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.counter_warning{
+    text-align: center;
+    padding-top: 20px;
+    color:red
+}
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.comment_container{
+    margin-top: 2%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#comments{
+    float: left;
+    text-align: left;
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        flex-direction: column;
+    }
+}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+comment-box/styles.css at main · malcolmwilson8/comment-box
